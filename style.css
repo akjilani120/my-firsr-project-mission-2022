@@ -5,6 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
+section{
+    margin-bottom: 80px;
+}
 .header-part{
     display: flex;
     padding: 28px;
@@ -25,13 +28,13 @@
 	font-size: 55px;
 	margin-bottom: 20px;
 	border-left: 5px solid;
-	padding: 5px;
-	/* height: 120px; */
+	padding: 5px;	
 	border-image: linear-gradient(rgb(243, 205, 37), rgb(240, 141, 13));
 	border-image-slice: 21;
     font-family: 'Merriweather', serif;
+    
 }
-.title span{
+.title span , .mission-title span{
     color: rgb(245, 171, 73);
     letter-spacing: 2px;   
     font-family: 'Merriweather', serif; 
@@ -53,4 +56,15 @@
 	margin: 15px auto;
     border: none;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.mission-title-part  {
+	width: 100%;
+	text-align: center;
+}
+.mission-title{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    border-bottom: 4px solid rgb(245, 171, 73) ;
+    display: inline-block
 }
