@@ -128,3 +128,9 @@ width: 80%;
 .dev-btn{
     width: 250px;   
 }
+.develop-part{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
