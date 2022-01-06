@@ -34,7 +34,7 @@ section{
     font-family: 'Merriweather', serif;
     
 }
-.stay-title span , .mission-title span{
+.stay-title span , .mission-title span, .footer-title span{
     color: rgb(245, 171, 73);
     letter-spacing: 2px;   
     font-family: 'Merriweather', serif; 
@@ -199,3 +199,16 @@ textarea{
     border-radius: 5px;
     cursor: pointer;
 }
+.footer-part{
+    background-color: rgb(6, 12, 44);
+    width: 100%;   
+   text-align: center; 
+    color: white;
+    padding: 50px;
+}
+.footer-title{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    margin: 10px auto;
+}
+
