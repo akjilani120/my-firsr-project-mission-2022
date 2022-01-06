@@ -8,7 +8,7 @@
 section{
     margin-bottom: 80px;
 }
-.header-part, .develop-part{
+.header-part, .develop-part , .global-part{
     display: flex;
     padding: 28px;
     flex-wrap: wrap;
