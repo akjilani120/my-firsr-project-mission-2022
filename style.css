@@ -68,3 +68,45 @@ section{
     border-bottom: 4px solid rgb(245, 171, 73) ;
     display: inline-block
 }
+.card-part{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    margin-top: 40px;
+
+}
+.card{
+    width: 28%;
+    margin: 5px 15px;
+    border-radius: 10px;   
+    padding: 20px;
+    color: white;
+    height: 380px;
+    text-align: center;
+    
+}
+.card img{
+    width: 60%; 
+   
+}
+.card-title{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.card-para{
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+}
+.card-mission-bg{
+    background-color: rgba(54, 146, 97, 0.418);
+}
+.card-vission-bg{
+    background-color: rgba(224, 111, 31, 0.603);
+}
+.card-goa-bg{
+    background-color: skyblue;
+}
