@@ -8,7 +8,7 @@
 section{
     margin-bottom: 80px;
 }
-.header-part, .develop-part , .global-part{
+.header-part, .develop-part , .global-part , .contact-part{
     display: flex;
     padding: 28px;
     flex-wrap: wrap;
@@ -58,11 +58,11 @@ section{
     text-transform: uppercase;
     cursor: pointer;
 }
-.mission-title-part  {
+.mission-title-part , .contact-title-part  {
 	width: 100%;
 	text-align: center;
 }
-.mission-title{
+.mission-title, .contact-title{
     font-size: 50px;
     font-family: 'Merriweather', serif;
     border-bottom: 4px solid rgb(245, 171, 73) ;
@@ -138,5 +138,64 @@ width: 80%;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: end;
+}
 
+.contact-text-part{
+    width: 55%;
+    border: 1px solid rgb(236, 231, 231);
+    margin: 20px 10px;
+    padding: 10px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px silver;
+    padding: 15px 20px;
+}
+.contact-touch-side{
+    width: 40%;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    height: 450px;
+    border: 2px solid rgb(236, 231, 231);
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px silver;
+}
+.touch-main h3, .form-title{
+    font-size: 35px;
+    margin: 20px 0;
+}
+.touch-main p{
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 10px;
+    font-weight: 200;
+}
+.form-part input{
+    width: 45%;
+    border: 1px solid silver;
+    height: 40px;
+    margin:  10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+textarea{
+    width: 93%;
+    margin:  10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    height: 150px;
+}
+.contact-title{
+    margin-bottom: 50px;
+}
+.sub-btn{
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
