@@ -8,7 +8,7 @@
 section{
     margin-bottom: 80px;
 }
-.header-part{
+.header-part, .develop-part{
     display: flex;
     padding: 28px;
     flex-wrap: wrap;
@@ -16,15 +16,15 @@ section{
     align-items: center;
      width: 100%;
 }
-.header-left-side,header-right-side{
+.header-title-side, .header-img-side{
     width:50%;
     padding: 0 35px;
 }
 .header-img-part img{
     width:100%;
-    height: 500px;   
+    height: 400px;   
 }
-.title {
+.stay-title {
 	font-size: 55px;
 	margin-bottom: 20px;
 	border-left: 5px solid;
@@ -34,7 +34,7 @@ section{
     font-family: 'Merriweather', serif;
     
 }
-.title span , .mission-title span{
+.stay-title span , .mission-title span{
     color: rgb(245, 171, 73);
     letter-spacing: 2px;   
     font-family: 'Merriweather', serif; 
@@ -46,7 +46,7 @@ section{
 	line-height: 25px;    
     margin: 10px auto;
 }
-.explore-btn {
+.explore-btn , .dev-btn {
 	font-size: 18px;
 	width: 210px;
 	padding: 10px 15px;
@@ -96,7 +96,7 @@ section{
     margin-bottom: 15px;
     text-align: left;
 }
-.card-para{
+.card-para, .dev-para{
     font-size: 18px;
     line-height: 20px;
     text-align: justify;
@@ -109,4 +109,22 @@ section{
 }
 .card-goa-bg{
     background-color: skyblue;
+}
+.dev-img img{
+width: 80%;
+}
+.develop-img-side, .develop-title-side{
+    width: 50%;
+    padding: 0 20px;
+}
+.dev-title{
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    margin: 20px auto;
+}
+.dev-title span{
+    font-family: 'Merriweather', serif;
+}
+.dev-btn{
+    width: 250px;   
 }
