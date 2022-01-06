@@ -134,3 +134,9 @@ width: 80%;
     background-position: left;
     background-size: cover;
 }
+.glo-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: end;
+
+}
